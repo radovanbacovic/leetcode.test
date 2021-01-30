@@ -2,9 +2,10 @@
 import unittest
 import math
 
+
 class Solution:
     def trailing_zeroes(self, x):
-        res = 0
+        res: int = 0
         fact = list(str(math.factorial(x)))[::-1]
 
         for f in fact:
