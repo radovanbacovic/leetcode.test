@@ -9,14 +9,14 @@ class Solution:
         # x = 0
         # y = 0
 
-        # for i in list(moves):
-        #     if i == 'L':
+        # for move in list(moves):
+        #     if move == 'L':
         #         x -= 1
-        #     elif i == 'R':
+        #     elif move == 'R':
         #         x += 1
-        #     elif i == 'D':
+        #     elif move == 'D':
         #         y -= 1
-        #     elif i == 'U':
+        #     elif move == 'U':
         #         y += 1
         #
         # return x == y == 0
