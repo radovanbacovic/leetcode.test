@@ -1,5 +1,5 @@
 from collections import Counter
-ml = list('L')
+ml = [1,2,3,1,3]
 
 c = Counter(ml)
 
