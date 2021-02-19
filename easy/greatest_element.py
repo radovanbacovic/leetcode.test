@@ -20,7 +20,7 @@ class Solution:
 # s = Solution()
 # test_cases = [[17, 18, 5, 4, 6, 1]]
 # for t in test_cases:
-#     print(t, s.greatest_element(t))
+#     print(t, s.dest_city(t))
 
 
 
