@@ -17,7 +17,7 @@ class Solution:
 # s = Solution()
 # test_cases = ['AABA', 'ABCCA', 'A', 'CBALKL']
 # for t in test_cases:
-#     print(t, s.recuring_string(t))
+#     print(t, s.missing_num(t))
 
 #
 

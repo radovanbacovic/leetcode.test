@@ -32,6 +32,7 @@ class Solution:
 #     print(t, s.robot_origin(t))
 #
 
+
 class TestInt(unittest.TestCase):
 
     def test_integer(self):
