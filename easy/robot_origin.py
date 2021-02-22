@@ -32,6 +32,7 @@ class Solution:
 #     print(t, s.missing_positive(t))
 #
 
+
 class TestInt(unittest.TestCase):
 
     def test_integer(self):
