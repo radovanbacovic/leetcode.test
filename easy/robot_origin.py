@@ -29,7 +29,7 @@ class Solution:
 # s = Solution()
 # test_cases = [98711, 12322] #, 1234, 123456789, 0, 12322]
 # for t in test_cases:
-#     print(t, s.robot_origin(t))
+#     print(t, s.missing_positive(t))
 #
 
 class TestInt(unittest.TestCase):

@@ -1,6 +1,8 @@
-from collections import Counter
-ml = [1,2,3,1,3]
+def test_inner(x):
+    def inner_func(y, z = 'A'):
+        print(f'{x}, {y}, {z}')
+    return inner_func
 
-c = Counter(ml)
+moj_test = test_inner('aaaa2')
 
-print(c)
+moj_test('22','adsadds')
