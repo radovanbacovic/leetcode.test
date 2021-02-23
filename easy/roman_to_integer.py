@@ -32,13 +32,6 @@ class Solution:
 
         return sum(res)
 
-        #
-        # basic_list = []
-        #
-        # for b in basic_list:
-        #     res.append(basic_nums[b])
-        #
-        # return sum(res)
 # test
 
 # s = Solution()
