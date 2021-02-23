@@ -41,7 +41,7 @@ class Solution:
 #
 # test_cases = [["egg", "add"],["foo", "bar"],["paper", "title"]]
 # for t1, t2 in test_cases:
-#     print(t1, t2, s.missing_positive(t1,t2))
+#     print(t1, t2, s.roman_to_integer(t1,t2))
 
 
 class TestInt(unittest.TestCase):

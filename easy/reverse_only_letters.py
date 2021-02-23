@@ -34,7 +34,7 @@ class Solution:
 # s = Solution()
 # test_cases = ["ab-cd", "a-bC-dEf-ghIj", "Test1ng-Leet=code-Q!"]
 # for t in test_cases:
-#     print(t, s.missing_positive(t))
+#     print(t, s.roman_to_integer(t))
 
 
 class TestInt(unittest.TestCase):

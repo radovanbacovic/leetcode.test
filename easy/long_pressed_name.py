@@ -59,7 +59,7 @@ s = Solution()
 # test_cases = [['alex','aaleex'], ['saeed','ssaaedd'],['leelee','lleeelee'], ['laiden', 'laiden']]
 # test_cases = [['leelee','lleeelee']]
 # for t1, t2 in test_cases:
-#     print(t1, t2, s.missing_positive(t1,t2))
+#     print(t1, t2, s.roman_to_integer(t1,t2))
 
 
 class TestInt(unittest.TestCase):
