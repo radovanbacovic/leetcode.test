@@ -23,7 +23,7 @@ class Solution:
 # test_cases = [[1,2,0], [3,4,-1,1], [7,8,9,11,12]]
 #
 # for t1 in test_cases:
-#     print(t1, s.roman_to_integer(t1))
+#     print(t1, s.integer_to_roman(t1))
 
 
 class TestInt(unittest.TestCase):
