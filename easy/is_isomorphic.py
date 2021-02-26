@@ -41,7 +41,7 @@ class Solution:
 #
 # test_cases = [["egg", "add"],["foo", "bar"],["paper", "title"]]
 # for t1, t2 in test_cases:
-#     print(t1, t2, s.integer_to_roman(t1,t2))
+#     print(t1, t2, s.jewels_stones(t1,t2))
 
 
 class TestInt(unittest.TestCase):

@@ -39,7 +39,7 @@ class Solution:
 # test_cases = ["III", "IV", "IX", "LVIII", "MCMXCIV", "MCMXCIII"]
 #
 # for t1 in test_cases:
-#     print(t1, s.integer_to_roman(t1))
+#     print(t1, s.jewels_stones(t1))
 
 
 class TestInt(unittest.TestCase):
