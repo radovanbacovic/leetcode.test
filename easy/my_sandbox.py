@@ -1,3 +1,11 @@
-my_num = divmod(6,5)
+from itertools import permutations
 
-print(my_num[0] * 'V', my_num[1]*'I')
+my_list = [1, 6, 4, 5, 3, 3, 2, 8]
+
+suma = 6
+
+# combs = [x for x in list(permutations(my_list, 2)) if x[0] + x[1] == suma]
+#
+# print(combs)
+
+
