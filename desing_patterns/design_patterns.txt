@@ -1,0 +1,9 @@
+CREATIONAL PATTERNS:
+- factory
+- abstract factory
+- singleton
+
+STRUCTURAL PATTERNS:
+
+
+BEHAVIORAL PATTERNS:
