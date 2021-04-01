@@ -3,9 +3,15 @@ CREATIONAL PATTERNS:
 - abstract factory
 - singleton
 - builder
-
+- prototype
 
 STRUCTURAL PATTERNS:
-
+- decorator
+- proxy
+- adapter
+- composite
+- bridge
 
 BEHAVIORAL PATTERNS:
+- observer
+- visitor

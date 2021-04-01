@@ -1,14 +1,22 @@
-"""
-Write a function that returns the elements on odd positions (0 based) in a list
-"""
+def make_all_combinations(list1, list2):
+    if not list1:
+        return []
+    if not list2:
+        return [x for x in list1]
+    return [x + y for x in list1 for y in list2]
+
+list1 = 'abc'
+list2 = 'def'
 
 
-def solution(input):
-    # code goes here
-    output = [x for x in input if x % 2 == 1]
-    return output
+# print(make_all_combinations(list1, list2))
+
+full_list = [[],[]]
 
 
+my_range = [(x, y) for x in range(len(full_list)) for y in range(1, len(full_list)) if x != y and y > x]
+print(my_range)
+for x, y in my_range:
+    print(make_all_combinations(full_list[x], full_list[y]))
 
-assert solution([0, 1, 2, 3, 4, 5]) == [1, 3, 5], 'x'
-assert solution([1, -1, 2, -2]) == [-1, -2], 'x'
+
