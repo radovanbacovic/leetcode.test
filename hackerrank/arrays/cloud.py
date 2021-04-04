@@ -36,7 +36,7 @@ s = Solution()
 # test_cases = ['0 1 0 0 0 1 0','0 0 1 0 0 1 0', '0 0 0 1 0 0']
 #
 # for t1 in test_cases:
-#     print(t1, s.jumping_on_clouds(t1))
+#     print(t1, s.count_triplets(t1))
 
 
 class TestInt(unittest.TestCase):
