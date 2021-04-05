@@ -18,7 +18,7 @@ s = Solution()
 # test_cases = [[10, 20, 20, 10, 10, 30, 50, 10, 20], [1, 2, 1, 2, 1, 3, 2]]
 #
 # for t1 in test_cases:
-#     print(t1, s.valey(t1))
+#     print(t1, s.left_rot(t1))
 
 
 class TestInt(unittest.TestCase):

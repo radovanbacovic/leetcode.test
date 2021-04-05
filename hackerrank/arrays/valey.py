@@ -6,7 +6,7 @@ from collections import Counter
 
 class Solution:
     ### SLOW!
-    # def valey(self, path):
+    # def left_rot(self, path):
     #     num_path = [0] + [-1 if x == 'D' else 1 for x in list(path)]
     #     running_pos = []
     #     res = 0
@@ -36,7 +36,7 @@ class Solution:
 # test_cases = ['DDUUUUDD', 'UDDDUDUU']
 #
 # for t1 in test_cases:
-#     print(t1, s.valey(t1))
+#     print(t1, s.left_rot(t1))
 
 
 class TestInt(unittest.TestCase):
